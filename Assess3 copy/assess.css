@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+}
+
+#postcard {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(imgs/default.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#to {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 50px;
+    background-color: white;
+}
+
+#from {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 50px;
+    background-color: white;
+}
+
+#message {
+    width: 650px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+    background-color: white;
+    filter: opacity(0.9);
+}
+
+
+
+/********* controls **********/
+
+#controls {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+
+
+
+/********* gallery **********/
+#preview {
+    width: 100%;
+    height: 150px;
+}
+
+#minicard {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    display: inline-block;
+}
+
+#minito {
+    width:auto;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+    background-color: white;
+    filter: opacity(0.9);
+}
+
+#minifrom {
+    display: none;
+}
+
+#minimsg {
+    display: none;
+}
